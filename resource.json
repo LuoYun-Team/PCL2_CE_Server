@@ -1,1 +1,59 @@
-
+{
+    "meta":{
+        "server":"PCL2-CE",
+        "version":0,
+        
+    },
+    "runtime":{
+        ".NET Framework":[
+            {
+                "available_mirror":[
+                    "https://raw.githubusercontent.com/PCL-Community/${issuer}/files/download/"
+                ]
+            },
+            {
+                "download_url":"https://download.microsoft.com/download/4/b/2/cd00d4ed-ebdd-49ee-8a33-eabc3d1030e3/NDP481-x86-x64-AllOS-ENU.exe",
+                "file":"dotnet-framework-481-runtime.exe",
+                "html_url":"",
+                "sha2":"",
+                "totalSize":0,
+                "version":481,
+                "type":"Runtime"
+            },
+            {
+                "download_url":"",
+                "html_url":"",
+                "sha2":"",
+                "totalSize":0,
+                "version":480,
+                "type":"Runtime"
+            },
+            {
+                "download_url":"",
+                "html_url":"",
+                "sha2":"",
+                "totalSize":0,
+                "version":462,
+                "type":"Runtime"
+            }
+        ],
+        "Java":[
+            {
+                "name":"Adoptium OpenJDK 8",
+                "download_url":"",
+                "version":8,
+                "html_url":"",
+                "sha2":"",
+                "type":"Develop"
+            },
+            {
+                "name":"Adoptium OpenJDK 8 Runtime",
+                "download_url":"",
+                "version":8,
+                "html_url":"",
+                "sha2":"",
+                "type":"Runtime"
+            }
+        ]
+    }
+}
